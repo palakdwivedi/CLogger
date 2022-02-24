@@ -55,10 +55,9 @@ namespace myos
     {
         static void Main(string[] args)
         {
-          
             var logger = new OurUser();
             logger.Log("Palak Dwivedi");
-
+            Console.ReadLine();
         }
     }
 }
